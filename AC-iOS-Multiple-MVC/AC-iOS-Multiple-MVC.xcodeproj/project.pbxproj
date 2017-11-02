@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		817C867D1FABBA9A000BCFEE /* ZooAnimalDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C867C1FABBA9A000BCFEE /* ZooAnimalDetailedViewController.swift */; };
+		819E64CE1FABAA80007C58A6 /* ZooAnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819E64CD1FABAA80007C58A6 /* ZooAnimalTableViewCell.swift */; };
 		DE07F55F1FAB611300DA3ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F55E1FAB611300DA3ABA /* AppDelegate.swift */; };
 		DE07F5611FAB611300DA3ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F5601FAB611300DA3ABA /* ViewController.swift */; };
 		DE07F5641FAB611300DA3ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE07F5621FAB611300DA3ABA /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		817C867C1FABBA9A000BCFEE /* ZooAnimalDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooAnimalDetailedViewController.swift; sourceTree = "<group>"; };
+		819E64CD1FABAA80007C58A6 /* ZooAnimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooAnimalTableViewCell.swift; sourceTree = "<group>"; };
 		DE07F55B1FAB611300DA3ABA /* AC-iOS-Multiple-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-Multiple-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE07F55E1FAB611300DA3ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE07F5601FAB611300DA3ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		819E64CA1FABA80A007C58A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE07F5701FAB627600DA3ABA /* ZooAnimal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		819E64CB1FABA812007C58A6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE07F5601FAB611300DA3ABA /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		819E64CC1FABA820007C58A6 /* Unused Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				DE07F55E1FAB611300DA3ABA /* AppDelegate.swift */,
+				DE07F5671FAB611300DA3ABA /* LaunchScreen.storyboard */,
+			);
+			path = "Unused Stuff";
+			sourceTree = "<group>";
+		};
+		819E64CF1FABAA8C007C58A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				819E64CD1FABAA80007C58A6 /* ZooAnimalTableViewCell.swift */,
+				817C867C1FABBA9A000BCFEE /* ZooAnimalDetailedViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DE07F5521FAB611300DA3ABA = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +94,12 @@
 		DE07F55D1FAB611300DA3ABA /* AC-iOS-Multiple-MVC */ = {
 			isa = PBXGroup;
 			children = (
-				DE07F5701FAB627600DA3ABA /* ZooAnimal.swift */,
-				DE07F5601FAB611300DA3ABA /* ViewController.swift */,
+				819E64CA1FABA80A007C58A6 /* Models */,
+				819E64CB1FABA812007C58A6 /* View Controllers */,
+				819E64CF1FABAA8C007C58A6 /* Views */,
+				819E64CC1FABA820007C58A6 /* Unused Stuff */,
 				DE07F5621FAB611300DA3ABA /* Main.storyboard */,
-				DE07F55E1FAB611300DA3ABA /* AppDelegate.swift */,
 				DE07F5651FAB611300DA3ABA /* Assets.xcassets */,
-				DE07F5671FAB611300DA3ABA /* LaunchScreen.storyboard */,
 				DE07F56A1FAB611300DA3ABA /* Info.plist */,
 			);
 			path = "AC-iOS-Multiple-MVC";
@@ -140,7 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE07F5611FAB611300DA3ABA /* ViewController.swift in Sources */,
+				819E64CE1FABAA80007C58A6 /* ZooAnimalTableViewCell.swift in Sources */,
 				DE07F5711FAB627600DA3ABA /* ZooAnimal.swift in Sources */,
+				817C867D1FABBA9A000BCFEE /* ZooAnimalDetailedViewController.swift in Sources */,
 				DE07F55F1FAB611300DA3ABA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
